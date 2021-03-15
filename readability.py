@@ -10,10 +10,6 @@ def main():
     S = (sentences / words) * 100
     index = 0.0588 * L - 0.296 * S - 15.8 ##reading level formula
     rindex = round(index)
-    #print(f" L = {L}")
-    #print(f"S = {S}")
-    #print(f"index = {index}")
-    #print(f"rindex = {rindex}")
     if (rindex < 1):
         print("Before Grade 1")
     elif (rindex > 16):
